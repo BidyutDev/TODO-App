@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div style="grid-area: header" class="header">TODO-LIST</div>
+      <div style="grid-area: divider" class="divider"></div>
+      <input
+        style="grid-area: input"
+        type="text"
+        placeholder="Add task..."
+        id="taskInput"
+      />
+      <div style="grid-area: sidebar" class="btn">
+        <button id="addTaskBtn">Add</button>
+      </div>
+      <div style="grid-area: main">
+        <ul id="taskList"></ul>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
