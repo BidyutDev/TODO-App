@@ -62,7 +62,6 @@ body {
   background-color: orange;
   color: #232323;
   cursor: pointer;
-  transition: background-color 0.3s;
 
 }
 button {
@@ -79,7 +78,6 @@ button:hover {
   background-color: red;
   color: #232323;
   cursor: pointer;
-  transition: background-color 0.3s;
 }
 .completed{
     text-decoration: line-through;
